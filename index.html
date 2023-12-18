@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/GwangJu.css">
+    <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+</head>
+
+
+<body>
+    <header>
+        <div class="header_bar">
+            <nav class="main_nav w1155">
+                <ul class="nav_fixed">
+                    <li><a href="">클럽안내</a></li>
+                    <li><a href="">이용안내</a></li>
+                    <li><a href="">코스소개</a></li>
+                    <li><a href="">예약서비스</a></li>
+                    <li><a href="">부대시설</a></li>
+                    <li><a href="">회원서비스</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer">
+            <div class="w1440 main_footerFix">
+                <p>실시간 예약</p>
+                <form>
+                    <div><input type="text" required><label>이름</label><span></span></div>
+                    <div><input type="tel" required><label>연락처</label><span></span></div>
+                    <div><input type="text" required><label>인증번호</label><span></span></div>
+                    <div class="border_none"><input type="submit" value="실시간확인"></div>
+                </form>
+            </div>
+        </div>
+    </header>
+
+
+
+    <main class="swiper mySwiper">
+        <section class="swiper-wrapper">
+            <article class=" main_background swiper-slide">
+                <!-- Slide 1-->
+                <div class=" w1155 title">
+                    <h1 class="main_title"> EXPERIENCE THE DIFFERENCE
+                        <br> Gwang Ju Country Club
+                    </h1>
+                    <p class="main_p1"> 여기는, 품격있는 자연의 공간을 함께 누릴 수 있는 광주컨트리 클럽입니다.</p>
+                </div>
+            </article>
+
+
+
+            <article class="swiper-slide">
+                <!-- Slide 2 -->
+                <div class="main_background table_one">
+                    <div>
+                        <form>
+                            <table class="w1155 reservation">
+                                <tr>
+                                    <td>Reservar Time</td>
+                                    <td>Course (hole)</td>
+                                    <td>Cart</td>
+                                    <td>Caddie</td>
+                                    <td>Weather</td>
+                                    <td class="button_two" rowspan="2">
+                                        <input type="submit" value="예약하기">
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td onclick="showCalendar()" id="selectedDates">23.08.21(월)~23.08.22(화)</td>
+                                    <td>
+                                        <select>
+                                            <option value="" disabled selected>코스선택</option>
+                                            <option value="동악">동악</option>
+                                            <option value="설산">설산</option>
+                                            <option value="섬진">섬진</option>
+                                        </select>
+                                    </td>
+                                    <td>1팀기준<br> 100,000원</td>
+                                    <td>150,000원</td>
+                                    <td>
+                                        <div></div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </form>
+                    </div>
+                </div>
+            </article>
+
+
+
+            <article class="swiper-slide">
+                <!-- Slide 3 -->
+                <div>
+                    <div class="swiper mySwiper1">
+
+                        <div class="swiper-wrapper">
+                            <div class="green_fee swiper-slide">
+                                <img src="./img/story_img-f8e05104 1.png"><!--Slide 3-1-->
+                            </div>
+
+                            <div class="green_fee swiper-slide"> <!--Slide 3-2-->
+                                <p>Gwang Ju Country Club</p>
+                                <h1>그린피 요금표</h1>
+                                <h6>[그린표 요금안내표]</h6>
+                                <table class="fee_table">
+                                    <tr>
+                                        <td>구분</td>
+                                        <td>V-VIP회원</td>
+                                        <td>VIP회원</td>
+                                        <td>정회원</td>
+                                        <td>주중회원</td>
+                                        <td>V-VIP 지정회원</td>
+                                        <td>V-VIP가족회원</td>
+                                        <td>준회원</td>
+                                        <td>일반회원</td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td></td>
+
+                                    </tr>
+                                </table>
+                            </div>
+
+                            <div class="green_fee swiper-slide"><!--Slide 3-3-->
+                                <img src="./img/story_img-f8e05104 1.png">
+                            </div>
+
+                            <div class="green_fee swiper-slide"><!--Slide3-4-->
+
+                            </div>
+
+                            <div class="green_fee swiper-slide">
+                                <img src="./img/story_img-f8e05104 1.png"><!--Slide 5-->
+                            </div>
+
+                            <div class="green_fee swiper-slide">
+                                <img src="./img/story_img-f8e05104 1.png"><!--Slide 6-->
+                            </div>
+                        </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+
+                    </div>
+                </div>
+            </article>
+
+
+            <article class="swiper-slide">
+                <!-- Slide 4 -->
+                <div class="w1155 lounge_flex">
+                    <figure class="lounge4-1">
+                        <div class="img4-1"></div>
+                        <figcaption>
+                            <p class="title4-1">Gwang Ju Country Club</p>
+                            <h1>SHADOWHOUSE</h1>
+                            <p class="content4-1"> 여유를 즐길 수 있는 공간
+                                <br>자연속에서 편안한 휴식을 즐겨보실 수 있어요
+                            </p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lounge4-1">
+                        <div class="img4-2"></div>
+                        <figcaption>
+                            <p class="title4-1">Gwang Ju Country Club</p>
+                            <h1>RESTAURANU</h1>
+                            <p class="content4-1">광주 컨트리 클럽만의 아늑한 공간
+                                <br> 특별한 시간을 편안하고 아늑하게 즐기실 수 있어요
+                            </p>
+                        </figcaption>
+                    </figure>
+                    <figure class="lounge4-1">
+                        <div class="img4-3"></div>
+                        <figcaption>
+                            <p class="title4-1">Gwang Ju Country Club</p>
+                            <h1>PROFESSIONAL</h1>
+                            <p class="content4-1">고급스러운 장비와 시설로
+                                <br>색다른 경험을 느끼실 수 있어요
+                            </p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </article>
+
+
+            <article class="swiper-slide">
+                <!-- Slide 5 -->
+
+                <div class="con5-1 w1155">
+                    <div class="item1">item1</div>
+                    <div class="item2">item2</div>
+                    <div class="item3">item3</div>
+                    <div class="item4">item4</div>
+                </div>
+
+
+
+
+
+
+
+            </article>
+            <article class="swiper-slide">Slide 6</article>
+            <article class="swiper-slide">Slide 7</article>
+            <article class="swiper-slide">Slide 8</article>
+            <article class="swiper-slide">Slide 9</article>
+        </section>
+
+    </main>
+
+
+
+
+
+    <!-- styling a select menu -->
+
+
+
+
+
+</body>
+<script>
+    function showCalendar() {
+        const today = new Date();
+        const currentYear = today.getFullYear();
+        const currentMonth = today.getMonth();
+
+        const firstDayOfMonth = new Date(currentYear, currentMonth, 1);
+        const lastDayOfMonth = new Date(currentYear, currentMonth + 1, 0);
+
+        const startDateString = formatDate(firstDayOfMonth);
+        const endDateString = formatDate(lastDayOfMonth);
+
+        const dateRangeElement = document.getElementById("selectedDates");
+        dateRangeElement.textContent = `${startDateString}~${endDateString}`;
+
+
+        flatpickr("#selectedDates", {
+            mode: "range",
+            dateFormat: "Y.m.d",
+            locale: "ko",
+        });
+    }
+
+    function formatDate(date) {
+        const year = date.getFullYear();
+        const month = (date.getMonth() + 1).toString().padStart(2, '0');
+        const day = date.getDate().toString().padStart(2, '0');
+        return `${day}.${month}.${year}`;
+    }
+
+
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("selectedDates").addEventListener("click", showCalendar);
+    });
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+<script src="./js/GwangJu.js"></script>
+
+</html>

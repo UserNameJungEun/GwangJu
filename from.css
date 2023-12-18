@@ -1,0 +1,24 @@
+div>input{
+    border: none;
+    outline: none;
+    background: none;
+    width: 100%;
+}
+.id{
+    border: 1px solid#333;
+    border-radius: 20px;
+    padding-left: 20px;
+}
+.pw{
+    border-bottom: 2px solid #333;
+}
+.btn_login{
+    width: 200px; height: 50px;
+    background-color: aquamarine;
+}
+input:focus{
+    border: 1px solid red;
+}
+input[type=text]{
+    font-size: 30px;
+}
